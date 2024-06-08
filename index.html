@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APOD</title>
+
+</head>
+
+<body>
+    <h1>NASA Astronomy Picture of the Day</h1>
+
+    <!-- Форма для получения даты или диапазона дат -->
+    <form id="dateForm" class="date-form">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate">
+
+        <button type="submit">Get Image/Video</button>
+    </form>
+
+    <!-- Контейнеры для отображения результата -->
+    <div class="result-container">
+        <div class="img"></div>
+        <div class="video"></div>
+    </div>
+
+    <!-- Подключение скрипта -->
+    <script src="script.js"></script>
+</body>
+
+</html>

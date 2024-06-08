@@ -1,0 +1,121 @@
+        /* Общие стили для всего документа */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f0ff;
+            /* Светло-фиолетовый пастельный фон */
+            color: #4b0082;
+            /* Темно-фиолетовый цвет текста */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Стили заголовка */
+        
+        h1 {
+            margin-bottom: 20px;
+            color: #4b0082;
+            /* Темно-фиолетовый цвет текста */
+            text-shadow: 1px 1px 2px #8a2be2;
+            /* Светло-фиолетовая тень текста */
+        }
+        /* Стили формы */
+        
+        .date-form {
+            background: #e6e0ff;
+            /* Очень светло-фиолетовый пастельный фон */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(75, 0, 130, 0.2);
+            /* Темно-фиолетовая тень */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        .date-form label {
+            font-weight: bold;
+            color: #4b0082;
+            /* Темно-фиолетовый цвет текста */
+            margin-bottom: 5px;
+        }
+        
+        .date-form input[type="date"] {
+            padding: 10px;
+            border: 1px solid #d1c4ff;
+            /* Светло-фиолетовая граница */
+            border-radius: 6px;
+            background-color: #f9f7ff;
+            /* Очень светло-фиолетовый фон поля ввода */
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #4b0082;
+            /* Темно-фиолетовый цвет текста */
+        }
+        
+        .date-form button {
+            background: #8a2be2;
+            /* Светло-фиолетовый фон кнопки */
+            color: #ffffff;
+            /* Белый цвет текста кнопки */
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+        
+        .date-form button:hover {
+            background: #6a1bb1;
+            /* Темно-фиолетовый фон кнопки при наведении */
+        }
+        /* Стили контейнеров для результата */
+        
+        .result-container {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        .result-container .img,
+        .result-container .video {
+            background: #ffffff;
+            /* Белый фон контейнера */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(75, 0, 130, 0.2);
+            /* Темно-фиолетовая тень */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .result-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        
+        .result-container iframe {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        .result-container h3 {
+            color: #4b0082;
+            /* Темно-фиолетовый цвет заголовков */
+        }
+        
+        .result-container p {
+            color: #4b0082;
+            /* Темно-фиолетовый цвет текста */
+        }
